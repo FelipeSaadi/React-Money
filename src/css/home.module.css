@@ -1,0 +1,181 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #F0F2F5;
+    color: #222;
+}
+.container {
+    flex-direction: column;
+    width: 90%;
+}
+.table {
+    width: 91vw;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.tableHeader {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.headingText {
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+    color: #A9B2CA;
+}
+.tableRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 8px;
+    background-color: white;
+    border-radius: 9px;
+}
+.rowText {
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.entry {
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+    color: green;
+}
+.out {
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+    color: red;
+}
+.displayButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.addNewButton {
+    font-size: 16px;
+    margin-top: 60px;
+    width: 180px;
+    height: 40px;
+    color: black;
+    border-width: 1px;
+    border-color: #fbfbfb;
+    background-color: #fbfbfb ;
+}
+.addNewButton:hover {
+    cursor: pointer;
+}
+
+.modalLabel {
+    width: 100%;
+}
+.modalCheck {
+    width: 50%;
+}
+.modalInput {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    margin-top: 5px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.modalInput:active, .modalInput:focus {
+    outline: none;
+}
+.entryTitle {
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .table {
+        max-height: 200px;
+        margin-bottom: 20px;
+    }
+    .headingText {
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+    .rowText {
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+    .entry {
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+    .out {
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .table {
+        max-height: auto;
+        overflow-y: hidden;
+    }
+    .displayButton {
+        justify-content: center;
+    }
+    .addNewButton {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .headingText {
+        text-align: center;
+        font-size: 12px;
+        padding: 0;
+    }
+    .rowText {
+        text-align: center;
+        font-size: 12px;
+        padding: 0;
+    }
+    .entry {
+        text-align: center;
+        font-size: 12px;
+        padding: 0;
+    }
+    .out {
+        text-align: center;
+        font-size: 12px;
+        padding: 0;
+    }
+}
+
+
+/* .radioDiv {
+    display: flex;
+    width: 100%;
+    margin-top:15px;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #7D7D7D;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+.labelRadio {
+    margin-right: 10px;
+    font-size: 14px;
+}
+.inputRadio {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+} */

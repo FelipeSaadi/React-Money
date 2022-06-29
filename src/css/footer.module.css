@@ -1,0 +1,19 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color: black;
+    position: absolute;
+    bottom: 0;
+
+}
+.container {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 10px;
+}
+.table {
+    margin-top: 120px;
+  
+}

@@ -1,0 +1,43 @@
+#header {
+    background: rgb(17, 1, 90);
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    line-height: 40px;
+    margin: 20px;
+    height: 40px;
+    color: #ddd;
+}
+.addNewButton {
+    font-size: 16px;
+    margin: 20px;
+    width: 180px;
+    height: 40px;
+    color: #ddd;
+    border-width: 1px;
+    border-color: #282198;
+    background-color: #282198;
+}
+.addNewButton:hover {
+    cursor: pointer;
+}
+/* 
+@media (max-width: px) {
+    #header {
+        height: 300px;
+    }
+} */
+
+@media (max-width: 600px) {
+    #header {
+        height: 300px;
+    }
+}
